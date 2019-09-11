@@ -1,0 +1,12 @@
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\obj\Debug\Example1DataForms.vbprojAssemblyReference.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\obj\Debug\Example1DataForms.Form1.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\obj\Debug\Example1DataForms.Resources.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\obj\Debug\Example1DataForms.vbproj.GenerateResource.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\obj\Debug\Example1DataForms.vbproj.CoreCompileInputs.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\bin\Debug\Example1DataForms.exe.config
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\bin\Debug\Example1DataForms.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\bin\Debug\Example1DataForms.pdb
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\bin\Debug\Example1DataForms.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\obj\Debug\Example1DataForms.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\obj\Debug\Example1DataForms.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\Example1DataForms\obj\Debug\Example1DataForms.pdb
