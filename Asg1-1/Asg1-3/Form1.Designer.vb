@@ -22,18 +22,19 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Updatewisdom = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.ExitButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'Updatewisdom
         '
-        Me.Button1.Location = New System.Drawing.Point(341, 244)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Updatewisdom.Location = New System.Drawing.Point(341, 244)
+        Me.Updatewisdom.Name = "Updatewisdom"
+        Me.Updatewisdom.Size = New System.Drawing.Size(109, 52)
+        Me.Updatewisdom.TabIndex = 0
+        Me.Updatewisdom.Text = "Gain some wisodm"
+        Me.Updatewisdom.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -42,19 +43,30 @@ Partial Class Form1
         Me.Label1.Size = New System.Drawing.Size(172, 78)
         Me.Label1.TabIndex = 1
         '
+        'ExitButton
+        '
+        Me.ExitButton.Location = New System.Drawing.Point(652, 384)
+        Me.ExitButton.Name = "ExitButton"
+        Me.ExitButton.Size = New System.Drawing.Size(75, 23)
+        Me.ExitButton.TabIndex = 2
+        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Updatewisdom)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Updatewisdom As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents ExitButton As Button
 End Class
