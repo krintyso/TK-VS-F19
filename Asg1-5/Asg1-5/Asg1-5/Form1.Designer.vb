@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Specials
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -40,10 +40,14 @@ Partial Class Form1
         '
         'FoodDisplay
         '
-        Me.FoodDisplay.Location = New System.Drawing.Point(304, 113)
+        Me.FoodDisplay.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FoodDisplay.ForeColor = System.Drawing.Color.Cornsilk
+        Me.FoodDisplay.Image = Global.Asg1_5.My.Resources.Resources.thing
+        Me.FoodDisplay.Location = New System.Drawing.Point(192, -4)
         Me.FoodDisplay.Name = "FoodDisplay"
-        Me.FoodDisplay.Size = New System.Drawing.Size(162, 81)
+        Me.FoodDisplay.Size = New System.Drawing.Size(393, 324)
         Me.FoodDisplay.TabIndex = 1
+        Me.FoodDisplay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'DisplaySoup
         '
@@ -81,7 +85,7 @@ Partial Class Form1
         Me.Exitbutton.Text = "Exit"
         Me.Exitbutton.UseVisualStyleBackColor = True
         '
-        'Form1
+        'Specials
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -92,8 +96,8 @@ Partial Class Form1
         Me.Controls.Add(Me.DisplaySoup)
         Me.Controls.Add(Me.FoodDisplay)
         Me.Controls.Add(Me.DinerName)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "Specials"
+        Me.Text = "Specials"
         Me.ResumeLayout(False)
 
     End Sub

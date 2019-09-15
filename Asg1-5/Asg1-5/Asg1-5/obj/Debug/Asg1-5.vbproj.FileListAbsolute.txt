@@ -1,0 +1,12 @@
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\bin\Debug\Asg1-5.exe.config
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\bin\Debug\Asg1-5.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\bin\Debug\Asg1-5.pdb
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\bin\Debug\Asg1-5.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\obj\Debug\Asg1-5.vbprojAssemblyReference.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\obj\Debug\Asg1_5.Resources.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\obj\Debug\Asg1-5.vbproj.GenerateResource.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\obj\Debug\Asg1-5.vbproj.CoreCompileInputs.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\obj\Debug\Asg1-5.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\obj\Debug\Asg1-5.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\obj\Debug\Asg1-5.pdb
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg1-5\Asg1-5\Asg1-5\obj\Debug\Asg1_5.Specials.resources
