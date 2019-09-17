@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{294168C7-D653-4EE2-8428-3D74B98E0852}</ProjectGuid>
+    <ProjectGuid>{4B42E61A-FAAB-4D81-8C23-088B1CC659B1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>asg2_5.My.MyApplication</StartupObject>
     <RootNamespace>asg2_5</RootNamespace>
@@ -97,6 +97,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
