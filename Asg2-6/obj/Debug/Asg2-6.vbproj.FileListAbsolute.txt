@@ -1,0 +1,12 @@
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\bin\Debug\Asg2-6.exe.config
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\bin\Debug\Asg2-6.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\bin\Debug\Asg2-6.pdb
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\bin\Debug\Asg2-6.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\obj\Debug\Asg2-6.vbprojAssemblyReference.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\obj\Debug\Asg2_6.Form1.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\obj\Debug\Asg2_6.Resources.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\obj\Debug\Asg2-6.vbproj.GenerateResource.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\obj\Debug\Asg2-6.vbproj.CoreCompileInputs.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\obj\Debug\Asg2-6.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\obj\Debug\Asg2-6.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Asg2-6\obj\Debug\Asg2-6.pdb

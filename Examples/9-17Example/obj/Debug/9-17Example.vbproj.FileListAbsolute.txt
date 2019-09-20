@@ -1,0 +1,12 @@
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\bin\Debug\9-17Example.exe.config
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\bin\Debug\9-17Example.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\bin\Debug\9-17Example.pdb
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\bin\Debug\9-17Example.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\obj\Debug\9-17Example.vbprojAssemblyReference.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\obj\Debug\_9_17Example.UserInput.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\obj\Debug\_9_17Example.Resources.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\obj\Debug\9-17Example.vbproj.GenerateResource.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\obj\Debug\9-17Example.vbproj.CoreCompileInputs.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\obj\Debug\9-17Example.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\obj\Debug\9-17Example.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-17Example\obj\Debug\9-17Example.pdb
