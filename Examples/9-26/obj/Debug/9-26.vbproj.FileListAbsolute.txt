@@ -1,0 +1,12 @@
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\bin\Debug\9-26.exe.config
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\bin\Debug\9-26.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\bin\Debug\9-26.pdb
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\bin\Debug\9-26.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\obj\Debug\9-26.vbprojAssemblyReference.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\obj\Debug\_9_26.Form1.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\obj\Debug\_9_26.Resources.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\obj\Debug\9-26.vbproj.GenerateResource.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\obj\Debug\9-26.vbproj.CoreCompileInputs.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\obj\Debug\9-26.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\obj\Debug\9-26.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\Examples\9-26\obj\Debug\9-26.pdb

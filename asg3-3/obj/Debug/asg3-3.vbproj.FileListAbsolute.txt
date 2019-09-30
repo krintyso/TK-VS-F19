@@ -1,0 +1,12 @@
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\obj\Debug\asg3-3.vbprojAssemblyReference.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\obj\Debug\asg3_3.Resources.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\obj\Debug\asg3-3.vbproj.GenerateResource.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\obj\Debug\asg3-3.vbproj.CoreCompileInputs.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\bin\Debug\asg3-3.exe.config
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\bin\Debug\asg3-3.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\bin\Debug\asg3-3.pdb
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\bin\Debug\asg3-3.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\obj\Debug\asg3-3.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\obj\Debug\asg3-3.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\obj\Debug\asg3-3.pdb
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\asg3-3\obj\Debug\asg3_3.InventoryCalculator.resources
