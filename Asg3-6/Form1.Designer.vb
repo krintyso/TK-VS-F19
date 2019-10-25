@@ -29,7 +29,7 @@ Partial Class ShippingCostCalculatorForm
         Me.Weightlabel = New System.Windows.Forms.Label()
         Me.ShippingChargeLabel = New System.Windows.Forms.Label()
         Me.ShippingChargeTextBox = New System.Windows.Forms.TextBox()
-        Me.CalculateButto = New System.Windows.Forms.Button()
+        Me.CalculateButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.Oztextbox = New System.Windows.Forms.TextBox()
@@ -99,15 +99,15 @@ Partial Class ShippingCostCalculatorForm
         Me.ShippingChargeTextBox.TabIndex = 4
         Me.ToolTip1.SetToolTip(Me.ShippingChargeTextBox, "Shipping Charge")
         '
-        'CalculateButto
+        'CalculateButton
         '
-        Me.CalculateButto.Location = New System.Drawing.Point(12, 291)
-        Me.CalculateButto.Name = "CalculateButto"
-        Me.CalculateButto.Size = New System.Drawing.Size(568, 147)
-        Me.CalculateButto.TabIndex = 4
-        Me.CalculateButto.Text = "Calculate "
-        Me.ToolTip1.SetToolTip(Me.CalculateButto, "Calculate Shipping Cost")
-        Me.CalculateButto.UseVisualStyleBackColor = True
+        Me.CalculateButton.Location = New System.Drawing.Point(12, 291)
+        Me.CalculateButton.Name = "CalculateButton"
+        Me.CalculateButton.Size = New System.Drawing.Size(568, 147)
+        Me.CalculateButton.TabIndex = 4
+        Me.CalculateButton.Text = "&Calculate "
+        Me.ToolTip1.SetToolTip(Me.CalculateButton, "Calculate Shipping Cost")
+        Me.CalculateButton.UseVisualStyleBackColor = True
         '
         'ExitButton
         '
@@ -115,7 +115,7 @@ Partial Class ShippingCostCalculatorForm
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(146, 72)
         Me.ExitButton.TabIndex = 6
-        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.Text = "E&xit"
         Me.ToolTip1.SetToolTip(Me.ExitButton, "Exit Program")
         Me.ExitButton.UseVisualStyleBackColor = True
         '
@@ -125,7 +125,7 @@ Partial Class ShippingCostCalculatorForm
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(146, 69)
         Me.ClearButton.TabIndex = 5
-        Me.ClearButton.Text = "Clear"
+        Me.ClearButton.Text = "C&lear"
         Me.ToolTip1.SetToolTip(Me.ClearButton, "Clear text boxes")
         Me.ClearButton.UseVisualStyleBackColor = True
         '
@@ -182,14 +182,16 @@ Partial Class ShippingCostCalculatorForm
         '
         'ShippingCostCalculatorForm
         '
+        Me.AcceptButton = Me.CalculateButton
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.ClearButton
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.OutputGroupBox)
         Me.Controls.Add(Me.InputsGroupBox)
         Me.Controls.Add(Me.ClearButton)
         Me.Controls.Add(Me.ExitButton)
-        Me.Controls.Add(Me.CalculateButto)
+        Me.Controls.Add(Me.CalculateButton)
         Me.Name = "ShippingCostCalculatorForm"
         Me.Text = "Shipping Cost Calculator"
         Me.InputsGroupBox.ResumeLayout(False)
@@ -206,7 +208,7 @@ Partial Class ShippingCostCalculatorForm
     Friend WithEvents Weightlabel As Label
     Friend WithEvents ShippingChargeLabel As Label
     Friend WithEvents ShippingChargeTextBox As TextBox
-    Friend WithEvents CalculateButto As Button
+    Friend WithEvents CalculateButton As Button
     Friend WithEvents ExitButton As Button
     Friend WithEvents ClearButton As Button
     Friend WithEvents Oztextbox As TextBox
