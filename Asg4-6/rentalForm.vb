@@ -31,12 +31,14 @@ Public Class rentalForm
         endOdometerStr = endOdometerTextBox.Text
         daysStr = daysTextBox.Text
 
+
+        InputValidation()
+
+
         beginOdometer = Decimal.Parse(beginOdometerStr)
         endOdometer = Decimal.Parse(endOdometerStr)
         days = Decimal.Parse(daysStr)
 
-
-        InputValidation()
 
 
 
@@ -96,9 +98,14 @@ Public Class rentalForm
 
             numberofCustomers += 1
 
-        Catch ex As System.Exception
+        Catch ex As FormatException
             InputValidation()
-
+        Catch ex1 As InvalidCastException
+            MessageBox.Show("Invalid Conversion", "Illegal conversion", MessageBoxButtons.OK)
+        Catch ex2 As ArithmeticException
+            MessageBox.Show("Division by zero or variable overflow", "Invalid Calculation", MessageBoxButtons.OK)
+        Catch ex3 As OutOfMemoryException
+            MessageBox.Show("Not enough memory", "Out of Memory", MessageBoxButtons.OK)
         End Try
 
         milesDrivenLabel.Text = Distance.ToString
@@ -189,7 +196,17 @@ Public Class rentalForm
         For Each item As String In errorList
             sErrors &= item & " "
         Next
-        Console.WriteLine(sErrors)
-        MessageBox.Show(sErrors, "Errors", MessageBoxButtons.OK)
+
+        'MessageBox.Show(sErrors, "Errors", MessageBoxButtons.OK)
+    End Sub
+
+    Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles exitButton.Click
+
+        DialogResult = MessageBox.Show("Are you sure you want to exit", "Exit", MessageBoxButtons.YesNo)
+
+        If DialogResult = DialogResult.Yes Then
+            Me.Close()
+        End If
+
     End Sub
 End Class
