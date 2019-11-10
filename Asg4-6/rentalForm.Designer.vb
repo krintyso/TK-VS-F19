@@ -180,6 +180,7 @@ Partial Class rentalForm
         '
         Me.zipCodeTextBox.Location = New System.Drawing.Point(213, 158)
         Me.zipCodeTextBox.Margin = New System.Windows.Forms.Padding(4)
+        Me.zipCodeTextBox.MaxLength = 5
         Me.zipCodeTextBox.Name = "zipCodeTextBox"
         Me.zipCodeTextBox.Size = New System.Drawing.Size(132, 22)
         Me.zipCodeTextBox.TabIndex = 9
