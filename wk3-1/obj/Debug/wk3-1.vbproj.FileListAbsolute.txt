@@ -1,0 +1,12 @@
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\bin\Debug\wk3-1.exe.config
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\bin\Debug\wk3-1.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\bin\Debug\wk3-1.pdb
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\bin\Debug\wk3-1.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\obj\Debug\wk3-1.vbprojAssemblyReference.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\obj\Debug\wk3_1.Form1.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\obj\Debug\wk3_1.Resources.resources
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\obj\Debug\wk3-1.vbproj.GenerateResource.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\obj\Debug\wk3-1.vbproj.CoreCompileInputs.cache
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\obj\Debug\wk3-1.exe
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\obj\Debug\wk3-1.xml
+C:\Users\krine\OneDrive\Documents\GitHub\TK-VS-F19\wk3-1\obj\Debug\wk3-1.pdb
