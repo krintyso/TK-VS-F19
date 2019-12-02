@@ -34,81 +34,82 @@ Public Class rentalForm
 
         InputValidation()
 
-
-        beginOdometer = Decimal.Parse(beginOdometerStr)
-        endOdometer = Decimal.Parse(endOdometerStr)
-        days = Decimal.Parse(daysStr)
-
-
-
-
-
-        If beginOdometer > endOdometer Then
-            MessageBox.Show("Beginning odometer cannot be larger than ending odometer", "Invalid odometer", MessageBoxButtons.OK)
-            beginOdometerTextBox.SelectAll()
-        ElseIf days < 0 Or days > 45 Then
-            MessageBox.Show("Number of days cannot be less than 0 or greater than 45", "Invalid days", MessageBoxButtons.OK)
-            daysTextBox.SelectAll()
-        End If
-
         If errors = False Then
-            Try
-
-                dayCharge = days * 15
-                dayChargeLabel.Text = dayCharge.ToString("C")
-                If milesRadioButton.Checked = True Then
-                    Distance = endOdometer - beginOdometer
-                    milesDrivenLabel.Text = Distance.ToString
-                ElseIf kilometersRadioButton.Checked = True Then
-                    Distance = (endOdometer - beginOdometer) * 0.62
-                    milesDrivenLabel.Text = Distance.ToString
-                End If
-                If Distance <= 200.0 Then
-                    milesCharge = 0.00
-                    mileChargeLabel.Text = milesCharge.ToString("C")
-
-                ElseIf Distance >= 500.0 Then
-                    milesCharge = (300.0 * 0.12) + ((Distance - 500.0) * 0.1)
-
-                    mileChargeLabel.Text = milesCharge.ToString("C")
-                ElseIf Distance <= 500.0 And Distance >= 200.0 Then
-                    Distance2 = Distance - 200.0
-                    milesCharge = Distance2 * 0.12
-                    mileChargeLabel.Text = milesCharge.ToString("C")
-                End If
-                If aaaCheckBox.Checked = True Then
-                    Discount = totalCost * 0.05
-                    discountLabel.Text = Discount.ToString("C")
-                ElseIf seniorCheckBox.Checked = True Then
-                    Discount = totalCost * 0.03
-                    discountLabel.Text = Discount.ToString("C")
-                ElseIf aaaCheckBox.Checked = True And seniorCheckBox.Checked = True Then
-                    Discount = totalCost * 0.08
-                    discountLabel.Text = Discount.ToString("C")
-                End If
-                totalCost = milesCharge + dayCharge
-                totalCharge = totalCost - Discount
-                youOweLabel.Text = totalCharge.ToString("C")
-
-
-                discountLabel.BackColor = Color.White
-                milesDrivenLabel.BackColor = Color.White
-                youOweLabel.BackColor = Color.White
-                mileChargeLabel.BackColor = Color.White
-                dayChargeLabel.BackColor = Color.White
+            beginOdometer = Decimal.Parse(beginOdometerStr)
+            endOdometer = Decimal.Parse(endOdometerStr)
+            days = Decimal.Parse(daysStr)
 
 
 
 
-            Catch ex As FormatException
-                InputValidation()
-            Catch ex1 As InvalidCastException
-                MessageBox.Show("Invalid Conversion", "Illegal conversion", MessageBoxButtons.OK)
-            Catch ex2 As ArithmeticException
-                MessageBox.Show("Division by zero or variable overflow", "Invalid Calculation", MessageBoxButtons.OK)
-            Catch ex3 As OutOfMemoryException
-                MessageBox.Show("Not enough memory", "Out of Memory", MessageBoxButtons.OK)
-            End Try
+
+            If beginOdometer > endOdometer Then
+                MessageBox.Show("Beginning odometer cannot be larger than ending odometer", "Invalid odometer", MessageBoxButtons.OK)
+                beginOdometerTextBox.SelectAll()
+            ElseIf days < 0 Or days > 45 Then
+                MessageBox.Show("Number of days cannot be less than 0 or greater than 45", "Invalid days", MessageBoxButtons.OK)
+                daysTextBox.SelectAll()
+            End If
+
+            If errors = False Then
+                Try
+
+                    dayCharge = days * 15
+                    dayChargeLabel.Text = dayCharge.ToString("C")
+                    If milesRadioButton.Checked = True Then
+                        Distance = endOdometer - beginOdometer
+                        milesDrivenLabel.Text = Distance.ToString
+                    ElseIf kilometersRadioButton.Checked = True Then
+                        Distance = (endOdometer - beginOdometer) * 0.62
+                        milesDrivenLabel.Text = Distance.ToString
+                    End If
+                    If Distance <= 200.0 Then
+                        milesCharge = 0.00
+                        mileChargeLabel.Text = milesCharge.ToString("C")
+
+                    ElseIf Distance >= 500.0 Then
+                        milesCharge = (300.0 * 0.12) + ((Distance - 500.0) * 0.1)
+
+                        mileChargeLabel.Text = milesCharge.ToString("C")
+                    ElseIf Distance <= 500.0 And Distance >= 200.0 Then
+                        Distance2 = Distance - 200.0
+                        milesCharge = Distance2 * 0.12
+                        mileChargeLabel.Text = milesCharge.ToString("C")
+                    End If
+                    If aaaCheckBox.Checked = True Then
+                        Discount = totalCost * 0.05
+                        discountLabel.Text = Discount.ToString("C")
+                    ElseIf seniorCheckBox.Checked = True Then
+                        Discount = totalCost * 0.03
+                        discountLabel.Text = Discount.ToString("C")
+                    ElseIf aaaCheckBox.Checked = True And seniorCheckBox.Checked = True Then
+                        Discount = totalCost * 0.08
+                        discountLabel.Text = Discount.ToString("C")
+                    End If
+                    totalCost = milesCharge + dayCharge
+                    totalCharge = totalCost - Discount
+                    youOweLabel.Text = totalCharge.ToString("C")
+
+
+                    discountLabel.BackColor = Color.White
+                    milesDrivenLabel.BackColor = Color.White
+                    youOweLabel.BackColor = Color.White
+                    mileChargeLabel.BackColor = Color.White
+                    dayChargeLabel.BackColor = Color.White
+
+
+
+
+                Catch ex As FormatException
+                    InputValidation()
+                Catch ex1 As InvalidCastException
+                    MessageBox.Show("Invalid Conversion", "Illegal conversion", MessageBoxButtons.OK)
+                Catch ex2 As ArithmeticException
+                    MessageBox.Show("Division by zero or variable overflow", "Invalid Calculation", MessageBoxButtons.OK)
+                Catch ex3 As OutOfMemoryException
+                    MessageBox.Show("Not enough memory", "Out of Memory", MessageBoxButtons.OK)
+                End Try
+            End If
         End If
 
         milesDrivenLabel.Text = Distance.ToString
