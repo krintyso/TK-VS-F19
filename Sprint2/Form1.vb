@@ -52,13 +52,13 @@ Public Class Form1
 
 
         Try
-            Decimal.Parse(convertThisString, toThisInteger)
+            toThisInteger = CInt(convertThisString)
 
         Catch ex As Exception
             If convertThisString = "" Then
-                Return "Is empty"
+                Return "is empty"
             Else
-                Return "Must be a number"
+                Return "Must contain a number"
             End If
 
         End Try
